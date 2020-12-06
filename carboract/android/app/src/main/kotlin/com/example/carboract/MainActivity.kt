@@ -1,4 +1,4 @@
-package com.example.shelfo
+package com.example.carboract
 
 import io.flutter.embedding.android.FlutterActivity
 
