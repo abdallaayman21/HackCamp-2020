@@ -1,12 +1,12 @@
-import 'package:carboract/screens/sign_up_screen.dart';
+import 'package:carboract/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
-class LoginScreen extends StatefulWidget {
+class SignUpScreen extends StatefulWidget {
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  _SignUpScreenState createState() => _SignUpScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -57,7 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 8.0),
                   child: Text(
-                    "Sign In",
+                    "Sign Up",
                     style: TextStyle(
                       color: Color.fromRGBO(51, 51, 51, 1),
                       fontFamily: "Roboto",
@@ -76,7 +76,124 @@ class _LoginScreenState extends State<LoginScreen> {
                   Padding(
                     padding: const EdgeInsets.only(left: 40.0),
                     child: Text(
+                      "Full Name",
+                      style: TextStyle(
+                        color: Color.fromRGBO(51, 51, 51, 1),
+                        fontFamily: "Roboto",
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 15,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 40.0, right: 40.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(97, 120, 107, 1),
+                            Color.fromRGBO(0, 49, 33, 1)
+                          ],
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                        ),
+                        borderRadius: BorderRadius.all(Radius.circular(16)),
+                      ),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          fillColor: Color.fromRGBO(222, 222, 222, 1),
+                          filled: true,
+                          border: InputBorder.none,
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 27),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 40.0),
+                    child: Text(
                       "ID Number",
+                      style: TextStyle(
+                        color: Color.fromRGBO(51, 51, 51, 1),
+                        fontFamily: "Roboto",
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 15,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 40.0, right: 40.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(97, 120, 107, 1),
+                            Color.fromRGBO(0, 49, 33, 1)
+                          ],
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                        ),
+                        borderRadius: BorderRadius.all(Radius.circular(16)),
+                      ),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          fillColor: Color.fromRGBO(222, 222, 222, 1),
+                          filled: true,
+                          border: InputBorder.none,
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 27),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 40.0),
+                    child: Text(
+                      "Email Address",
+                      style: TextStyle(
+                        color: Color.fromRGBO(51, 51, 51, 1),
+                        fontFamily: "Roboto",
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 15,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 40.0, right: 40.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Color.fromRGBO(97, 120, 107, 1),
+                            Color.fromRGBO(0, 49, 33, 1)
+                          ],
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                        ),
+                        borderRadius: BorderRadius.all(Radius.circular(16)),
+                      ),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          fillColor: Color.fromRGBO(222, 222, 222, 1),
+                          filled: true,
+                          border: InputBorder.none,
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 27),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 40.0),
+                    child: Text(
+                      "Phone Number",
                       style: TextStyle(
                         color: Color.fromRGBO(51, 51, 51, 1),
                         fontFamily: "Roboto",
@@ -158,7 +275,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(16)),
                       child: Text(
-                        "Sign In",
+                        "Sign Up",
                         style: TextStyle(
                           fontFamily: "Roboto",
                           fontSize: 20,
@@ -177,7 +294,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
                       Text(
-                        "Do not have an account?",
+                        "Already have an account?",
                         style: TextStyle(
                           color: Color.fromRGBO(51, 51, 51, 1),
                           fontFamily: "Roboto",
@@ -187,7 +304,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       FlatButton(
                         child: Text(
-                          "Sign Up",
+                          "Sign In",
                           style: TextStyle(
                             color: Color.fromRGBO(51, 51, 51, 1),
                             fontFamily: "Roboto",
@@ -200,11 +317,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           setState(() => {
                                 Navigator.pop(context),
                                 Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => SignUpScreen(),
-                                  ),
-                                )
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => LoginScreen()))
                               }),
                         },
                       ),
