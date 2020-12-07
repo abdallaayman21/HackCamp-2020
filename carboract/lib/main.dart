@@ -1,6 +1,7 @@
 // import 'package:carboract/screens/splash_screen.dart';
 // import 'package:carboract/screens/login_screen.dart';
 // import 'package:carboract/screens/sign_up_screen.dart';
+import 'package:carboract/screens/dashboard_screen.dart';
 import 'package:carboract/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,8 @@ class CarboRact extends StatelessWidget {
       // home: SplashScreen(),
       // home: LoginScreen(),
       // home: SignUpScreen(),
-      home: WelcomeScreen(),
+      // home: WelcomeScreen(),
+      home: DashboardScreen(),
     );
   }
 }
