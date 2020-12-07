@@ -16,7 +16,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             height: MediaQuery.of(context).size.height * 0.9,
             color: Color.fromRGBO(242, 242, 242, 1),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
@@ -143,6 +143,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 Padding(
                   padding: const EdgeInsets.only(left: 10.0, right: 10.0),
                   child: Container(
+                    margin: EdgeInsets.only(top: 30),
                     width: MediaQuery.of(context).size.width,
                     height: 160,
                     decoration: BoxDecoration(
@@ -213,26 +214,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   //     fontWeight: FontWeight.w700,
                   //   ),
                   // ),
-                ),
-                SizedBox(height: 50),
-                Padding(
-                  padding: const EdgeInsets.only(left: 36.0, right: 36.0),
-                  child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16)),
-                    child: Text(
-                      "Let's Start",
-                      style: TextStyle(
-                        fontFamily: "Roboto",
-                        fontSize: 20,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                    color: Color.fromRGBO(0, 138, 46, 1),
-                    textColor: Colors.white,
-                    padding: EdgeInsets.only(top: 15, bottom: 15),
-                    onPressed: () => {},
-                  ),
                 ),
               ],
             ),
