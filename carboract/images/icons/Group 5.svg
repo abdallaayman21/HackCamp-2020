@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157.064" height="155" viewBox="0 0 157.064 155">
+  <g id="Group_5" data-name="Group 5" transform="translate(142.064 -808)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-142 808)" fill="none" stroke="#fff" stroke-width="14">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="2.5" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(-86 818)" fill="none" stroke="#fff" stroke-width="14">
+      <ellipse cx="10" cy="9.5" rx="10" ry="9.5" stroke="none"/>
+      <ellipse cx="10" cy="9.5" rx="3" ry="2.5" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(-141 918)" fill="none" stroke="#fff" stroke-width="14">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="1.5" fill="none"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(-85 934)" fill="none" stroke="#fff" stroke-width="14">
+      <ellipse cx="9" cy="9.5" rx="9" ry="9.5" stroke="none"/>
+      <ellipse cx="9" cy="9.5" rx="2" ry="2.5" fill="none"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(-2 891)" fill="none" stroke="#fff" stroke-width="11">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="3" fill="none"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(-31 940)" fill="none" stroke="#fff" stroke-width="15">
+      <ellipse cx="12" cy="11.5" rx="12" ry="11.5" stroke="none"/>
+      <ellipse cx="12" cy="11.5" rx="4.5" ry="4" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" y1="19.708" x2="11.261" transform="translate(-129.096 900.203)" fill="none" stroke="#fff" stroke-width="10"/>
+    <line id="Line_2" data-name="Line 2" x2="16.892" transform="translate(-117.835 900.203)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_3" data-name="Line 3" x2="17.361" y2="29.092" transform="translate(-135.196 871.111)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_4" data-name="Line 4" x1="17.361" y2="28.623" transform="translate(-135.196 842.488)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_5" data-name="Line 5" x1="30.969" transform="translate(-117.366 842.488)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_6" data-name="Line 6" x1="4.223" y2="6.569" transform="translate(-85.458 835.919)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_7" data-name="Line 7" x1="16.892" y1="28.154" transform="translate(-84.52 842.488)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_8" data-name="Line 8" x1="16.892" y2="28.623" transform="translate(-84.52 870.642)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_9" data-name="Line 9" x2="16.892" y2="28.623" transform="translate(-84.52 900.203)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_10" data-name="Line 10" x2="32.377" transform="translate(-67.627 928.826)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_11" data-name="Line 11" y1="6.1" x2="3.285" transform="translate(-71.381 929.295)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_12" data-name="Line 12" y1="28.154" x2="16.892" transform="translate(-34.782 900.672)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_13" data-name="Line 13" x2="16.892" y2="28.623" transform="translate(-34.782 871.111)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_14" data-name="Line 14" x2="16.423" transform="translate(-51.204 871.111)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_15" data-name="Line 15" x2="16.423" transform="translate(-17.889 899.734)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_16" data-name="Line 16" x2="8.446" y2="13.138" transform="translate(-33.843 929.295)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_17" data-name="Line 17" x2="9.854" y2="15.954" transform="translate(-128.627 825.127)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_18" data-name="Line 18" y1="11.731" x2="6.569" transform="translate(-65.281 884.719)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_19" data-name="Line 19" x2="13.608" transform="translate(-58.243 884.719)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_20" data-name="Line 20" x1="6.214" y1="10.949" transform="translate(-118.773 871.111)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+    <line id="Line_21" data-name="Line 21" y1="10.836" x2="6.264" transform="translate(-118.937 860.319)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"/>
+  </g>
+</svg>
